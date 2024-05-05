@@ -14,7 +14,7 @@ public class Estadistica {
 	
 	public static double moda(double[] v){
 		int cont=0;
-		double num=0;
+		double numero=0;
 		for(int i=0; i<v.length; i++){
 		   int aux=0;	
 		   for(int j=0; j<v.length; j++){
@@ -22,10 +22,10 @@ public class Estadistica {
 		   }
 		   if(aux>=cont){
 		   	cont=aux;
-		   	num=v[i];
+		   	numero=v[i];
 		   } 
 		 }
-		return num;
+		return numero;
 	}
 
         
