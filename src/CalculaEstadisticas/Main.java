@@ -10,7 +10,7 @@ public class Main {
      */
      
     public static void main(String[] args) {
-    	        
+    	// Cambio        
         System.out.println("Introduzca el tamaño de su secuencia de numeros");
     	Scanner sc=new Scanner(System.in);
         
